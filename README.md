@@ -193,7 +193,7 @@ Por ejemplo, agrega una breve descripción del sistema en la siguiente sección:
 
 Escribe aquí una descripción breve del sistema:
 
-> Respuesta del estudiante: ...
+> Respuesta del estudiante: Sistema desarrollado en Node.js para el calculo de precios y descuentos de productos comerciales. 
 
 Luego realice un commit:
 
