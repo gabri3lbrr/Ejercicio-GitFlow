@@ -274,43 +274,41 @@ Responda las siguientes preguntas directamente en este archivo `README.md`.
 
 ### 1. ¿Cuál es la diferencia entre `main` y `develop` en Git-flow?
 
-Respuesta:
-
+Respuesta :La rama main contiene el codigo estable, probado y listo para produccion ,Por su parte, develop es la rama de integracion principal donde se reunen todas las nuevas funcionalidades completadas antes de preparar una nueva version
 ---
 
 ### 2. ¿Por qué la funcionalidad se desarrolló en una rama `feature` y no directamente en `main`?
 
-Respuesta:
-
+Respuesta: Porque permite aislar el desarrollo de la nueva funcionalidad sin comprometer la estabilidad del código en producción main ni interferir con el trabajo de otros desarrolladores en el develop. 
 ---
 
 ### 3. ¿Qué hace el comando `git merge --no-ff`?
 
-Respuesta:
+Respuesta:Fuerza la creacion de un commit de merge explicito, dejando registro historico de que la funcionalidad se desarrollo en una rama independiente.
 
 ---
 
 ### 4. ¿Qué diferencia habría si Git hiciera un merge con fast-forward?
 
-Respuesta:
+Respuesta:El puntero de develop avanzaría de forma lineal hasta el último commit de la feature, perdiéndose el registro visual de que existió una rama separada.
 
 ---
 
 ### 5. Después del merge, ¿los commits hechos en `feature/descuento-estudiante` quedan en el historial de `develop`?
 
-Respuesta:
+Respuesta:Sí, todos los commits de la rama feature se conservan en el historial de develop junto con el commit de merge.
 
 ---
 
 ### 6. ¿Qué rol cumple una rama `release`?
 
-Respuesta:
+Respuesta: Sirve para estabilizar y preparar una nueva versión antes de llevarla a main, permitiendo solo correcciones menores, pruebas finales y ajustes de documentación
 
 ---
 
 ### 7. ¿Es posible usar Integración Continua con Git-flow? Justifica brevemente.
 
-Respuesta:
+Respuesta:Sí, configurando pipelines automatizados que ejecuten pruebas en cada push o Pull Request hacia feature, develop y release, aunque requiere integrar ramas con frecuencia para evitar conflictos grandes.
 
 ---
 
