@@ -1,10 +1,10 @@
-"========================================" | Out-File evidencia_gitflow.txt
+﻿"========================================" | Out-File evidencia_gitflow.txt
 "EVIDENCIA PRÁCTICA GIT-FLOW" | Out-File evidencia_gitflow.txt -Append
 "========================================" | Out-File evidencia_gitflow.txt -Append
 "" | Out-File evidencia_gitflow.txt -Append
 
 "Nombre del estudiante:" | Out-File evidencia_gitflow.txt -Append
-"Escribir aquí el nombre" | Out-File evidencia_gitflow.txt -Append
+"Gabriel Becerra" | Out-File evidencia_gitflow.txt -Append
 "" | Out-File evidencia_gitflow.txt -Append
 
 "Fecha de generación:" | Out-File evidencia_gitflow.txt -Append

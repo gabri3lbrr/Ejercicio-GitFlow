@@ -12,7 +12,7 @@ OUTPUT="evidencia_gitflow.txt"
   echo ""
 
   echo "Nombre del estudiante:"
-  echo "Escribir aquí el nombre"
+  echo "Gabriel Becerra"
   echo ""
 
   echo "Fecha de generación:"
